@@ -1,0 +1,43 @@
+:root {
+    --green-color: #83BC25;
+    --white-color: #ffffff;
+    --grey-light-color: rgb(49, 53, 71);
+    --grey-dark-color: #242734;
+}
+::-webkit-scrollbar {
+    width: 0.9vw;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--white-color);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--green-color);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--green-color)
+}
+::-webkit-scrollbar-button {
+    background-color: var(--white-color)
+}
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: CamptonLight;
+    src: url(./assets/Fonts/CamptonLight.otf);
+}
+
+@font-face {
+    font-family: MadeTommy;
+    src: url(./assets/Fonts/MadeTommy.otf);
+}
+
+@font-face {
+    font-family: CamptonMedium;
+    src: url(./assets/Fonts/CamptonMedium.ttf);
+}
+

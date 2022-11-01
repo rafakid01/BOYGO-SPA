@@ -1,0 +1,88 @@
+<body>
+    <nav id="scrolling">
+        <div class="img-nav">
+            <img src="../assets/Img/logo.png" class="logo-img" alt="Logotipo Boygo"/>
+        </div>
+        <span class="txt-nav">
+            <h2 class="smart-delivery">Entregas inteligentes</h2>
+        </span>
+        <div class="button-enter">
+            <button type="button" class="cad-button">
+                <a href="https://cadastro.boygo.com.br/login" target="_blank" rel="noreferrer noopeneer" class="restrict-area">
+                    <p class="parag-area">Área restrita</p> 
+                    <div class="lock-div">
+                        <img src="../assets/Img/lock.png" class="lock">
+                    </div>
+                </a>
+            </button>
+        </div>
+    </nav>
+    <main>
+        <i id="icon-wpp">
+            <a href="https://wa.me/5515996771213?text=Olá">
+                <img src="assets/Img/wpp.png" class="wpp-logo" alt="Ícone do WhatsApp para 
+                ligação com o suporte BoyGo">
+            </a>
+        </i>
+        <button *ngIf="isShow" (click)="gotoTop()" class="go-to-top-btn">
+            >
+        </button>
+        <section class="entrance-page">
+            <div id="slideshow">
+                <div class="slide-fade fade">
+                    <img src="../assets/Img/cellphone.webp" class="carousel-img" alt="Pessoa usando o 
+                    aplicativo da BoyGo"/>
+                </div>
+                <div class="slide-fade fade">
+                    <img src="../assets/Img/empresa.webp" class="carousel-img" alt="Empresário usando
+                    o aplicativo da BoyGo"/>
+                </div>
+            </div>
+            <div class="entrance-main">
+                <div class="main-phrase">
+                    <div class="main-title">
+                        <div class="half-div reveal">
+                            <img src="../assets/Img/square.png" class="half-square-logo"/>
+                        </div>
+                        <div class="int-solution reveal">
+                            <h1>Uma plataforma com soluções inteligentes</h1>
+                        </div>
+                    </div>
+                    
+                    <div class="enter-description">
+                        <h2 class="app-description">
+                            Somos um aplicativo facilitador, inteligente e moderno que traz praticidade
+                            na sua gestão de logística e na operação de delivery com total
+                            segurança.
+                        </h2>
+                    </div>
+                </div>
+                
+                <div class="redirect-links">
+                    <div class="company-link green" >
+                        <a id="choise-btn1">
+                            <a routerLink="/empresa" routerLinkActive="active" ariaCurrentWhenActive="page" class="company">
+                                <div class="empresa">
+                                    <h2 class="title-link">Empresa</h2>
+                                    <p class="enter-inc">Clique aqui</p>
+                                </div>
+                            </a>
+                        </a>
+                    </div>
+                    <div class="motoboy-link white">
+                        <a id="choise-btn2">
+                            <a routerLink="/entregador" routerLinkActive="active" ariaCurrentWhenActive="page" class="delivery">
+                                <div class="entregador">
+                                    <h2 class="title-link">entregador</h2>
+                                    <p class="enter-boy">Dirija até aqui</p>
+                                </div>
+                            </a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+<router-outlet> </router-outlet>

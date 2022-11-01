@@ -1,0 +1,1608 @@
+.company,
+.h-works,
+.beneficios,
+.modalidades,
+.taixinhas,
+.final {
+    font-family: MadeTommy;
+}
+
+.back1,
+.back3,
+.back5,
+.back8,
+.back11,
+.allblack {
+    background-color: var(--grey-dark-color);
+}
+
+.back4,
+.back10,
+.back12,
+.back6 {
+    background-color: var(--grey-light-color);
+}
+
+.back2,
+.back9,
+.line2,
+.btn-item {
+    background-color: var(--white-color);
+}
+
+.back7,
+.pay-parag,
+.line,
+.green-block {
+    background-color: var(--green-color);
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(200px);
+    opacity: 0;
+    transition: 1.5s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+@media screen and (orientation:landscape) {
+
+    /* Imagens */
+    .logo-img {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .square-min {
+        max-width: 70px;
+    }
+
+    .play-store-logo {
+        max-width: 55px;
+        padding-right: 1em;
+    }
+
+    .playstore-logo-full {
+        width: 17vw;
+    }
+
+    .icon-delivery {
+        width: 60%;
+        height: 85%;
+        max-height: 500px;
+        max-width: 360px;
+    }
+
+    .logo-BG-rodape {
+        max-width: 230px;
+    }
+
+    .social-media-logo {
+        width: 4vw;
+        max-width: 75px;
+    }
+
+    .apple-logo {
+        width: 17vw;
+    }
+    .link-apple {
+        text-decoration: none;
+    }
+
+    .link-apple:visited {
+        color: var(--white-color);
+    }
+
+    .logo-description {
+        text-align: center;
+        font-size: calc(1vw + 0.5em);
+        color: var(--white-color);
+    }
+
+    .half-square-img {
+        width: 10vw;
+        height: 10vw;
+        max-width: 190px;
+        max-height: 190px;
+    }
+
+    .cat-img {
+        width: 15vw;
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    /* Início do esquema "02Pedido" */
+
+    .apresentation1 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+
+    .conheca {
+        color: var(--green-color);
+        display: flex;
+        align-items: flex-end;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+        font-size: calc(1vw + 0.1em);
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+
+    .line {
+        border: 2px solid var(--green-color);
+        border-radius: 20px;
+        width: 4%;
+        height: 0px;
+        margin-right: 2%;
+        background-color: var(--green-color);
+    }
+
+    .title-info {
+        color: var(--white-color);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: calc(1vw + 1.4em);
+        margin-bottom: 1.5em;
+    }
+
+    .acess-info {
+        color: var(--white-color);
+        font-size: calc(1vw + 0.6em);
+        width: 50%;
+        text-align: justify;
+        line-height: 1.8;
+        padding-bottom: 1.5em;
+    }
+
+    .post1 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+
+    .title2 {
+        display: grid;
+        grid-template-columns: 1fr 0.2fr 1fr;
+    }
+
+    .with-BG {
+        color: var(--grey-dark-color);
+        font-size: calc(1vw + 1.5em);
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        text-align: right;
+    }
+
+    .é {
+        color: var(--grey-dark-color);
+        font-weight: bolder;
+    }
+
+    .is {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: calc(1vw + 20em);
+    }
+
+    .time-sales {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        text-align: justify;
+        font-size: calc(1vw + 1em);
+        color: var(--green-color);
+        font-weight: bold;
+        height: 85%;
+    }
+
+    .garantia {
+        display: grid;
+        grid-template-rows: 1fr;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: calc(1vw + 1em);
+        font-weight: bold;
+    }
+    .garantia-parag {
+        text-align: center;
+    }
+    .allblack {
+        height: 0px;
+        border: 2px solid var(--grey-dark-color);
+        border-radius: 25px;
+        width: 36%;
+        position: relative;
+        left: 32%;
+        margin-top: 1em;
+    }
+
+    .local-btn {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4em;
+    }
+
+    .link-btn1 {
+        text-decoration: none;
+        font-weight: bold;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-size: calc(1vw + 0.4em);
+        letter-spacing: 1px;
+        color: var(--grey-dark-color);
+        padding-bottom: 0.8em;
+        padding-top: 0.8em;
+        padding-left: 5em;
+        padding-right: 5em;
+        border-radius: 20px;
+        border: 2px solid var(--green-color);
+        background-color: transparent;
+        background-image: -webkit-linear-gradient(45deg, var(--green-color) 50%, transparent 50%);
+        background-image: linear-gradient(45deg, var(--green-color) 50%, transparent 50%);
+        background-position: 100%;
+        background-size: 400%;
+        -webkit-transition: background 300ms ease-in-out;
+        transition: background 300ms ease-in-out;
+    }
+
+    .link-btn1:hover {
+        background-position: 0;
+    }
+
+    .link-btn1:visited {
+        color: var(--grey-dark-color);
+    }
+
+    /* Início do esquema "03 Como funciona" */
+
+    .apresentation2 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        padding-top: 3em;
+    }
+
+    .simple {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-bottom: 2em;
+    }
+
+    .category-box {
+        margin-top: 2em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .category-title {
+        color: var(--green-color);
+        text-transform: uppercase;
+        font-size: calc(1vw + 0.6em);
+        padding: 0.5em;
+    }
+
+    .category-descr {
+        color: var(--green-color);
+        font-size: calc(1vw + 0.3em);
+    }
+
+    .subtitle1 {
+        color: var(--green-color);
+        font-size: calc(1vw + 1.2em);
+        letter-spacing: 3px;
+        text-align: justify;
+    }
+
+    .post2 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        padding-top: 3em;
+    }
+
+    .list {
+        color: var(--white-color);
+        position: relative;
+        left: 2%;
+    }
+
+    .list ul {
+        margin-bottom: 2em;
+        line-height: 1.8;
+        font-size: calc(1vw + 0.3em);
+    }
+
+    .link-btn2 {
+        text-decoration: none;
+        font-weight: bold;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-size: calc(1vw + 0.4em);
+        letter-spacing: 1px;
+        color: var(--white-color);
+        padding-bottom: 0.8em;
+        padding-top: 0.8em;
+        padding-left: 5em;
+        padding-right: 5em;
+        border-radius: 20px;
+        border: 2px solid var(--green-color);
+        background-color: transparent;
+        background-image: -webkit-linear-gradient(45deg, var(--green-color) 50%, transparent 50%);
+        background-image: linear-gradient(45deg, var(--green-color) 50%, transparent 50%);
+        background-position: 100%;
+        background-size: 400%;
+        -webkit-transition: background 300ms ease-in-out;
+        transition: background 300ms ease-in-out;
+    }
+
+    .link-btn2:hover {
+        background-position: 0;
+    }
+
+    .link-btn2:visited {
+        color: var(--white-color);
+    }
+
+    .under-link {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .download {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: end;
+    }
+
+    .link-playstore {
+        text-decoration: none;
+    }
+
+    .link-playstore:visited {
+        color: var(--white-color);
+    }
+
+    .title-app {
+        text-align: left;
+    }
+
+    .first-line {
+        color: var(--white-color);
+        font-size: calc(1vw + 2em);
+        letter-spacing: 2px;
+    }
+
+    .sec-line {
+        color: var(--green-color);
+        font-size: calc(1vw + 2em);
+        letter-spacing: 2px;
+    }
+
+    .google-play {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    /* Início do esquema "04Benefícios" */
+
+    .back6 {
+        padding-top: 1em;
+    }
+
+    .apresentation3 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+
+    .benef-list {
+        color: var(--white-color);
+        width: 90%;
+        position: relative;
+        left: 2%;
+        margin-bottom: 4em;
+    }
+
+    .benef-item {
+        margin-bottom: 1em;
+        letter-spacing: 2px;
+        font-size: calc(1vw + 0.3em);
+    }
+
+    .time-sales2 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        text-align: justify;
+        font-size: calc(1vw + 1em);
+        color: var(--white-color);
+        font-weight: bold;
+        height: 75%;
+    }
+
+    .info-BG {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        padding-bottom: 3em;
+    }
+
+    .info-BG-parag {
+        width: 35%;
+        color: var(--grey-dark-color);
+        letter-spacing: 2px;
+        font-size: calc(1vw + 0.3em);
+        font-weight: bold;
+    }
+
+    .link-btn3 {
+        text-decoration: none;
+        font-weight: bold;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-size: calc(1vw + 0.4em);
+        letter-spacing: 1px;
+        color: var(--white-color);
+        padding-bottom: 0.8em;
+        padding-top: 0.8em;
+        padding-left: 5em;
+        padding-right: 5em;
+        border-radius: 20px;
+        border: 2px solid var(--grey-dark-color);
+        background-color: transparent;
+        background-image: -webkit-linear-gradient(45deg, var(--grey-dark-color) 50%, transparent 50%);
+        background-image: linear-gradient(45deg, var(--grey-dark-color) 50%, transparent 50%);
+        background-position: 100%;
+        background-size: 400%;
+        -webkit-transition: background 300ms ease-in-out;
+        transition: background 300ms ease-in-out;
+    }
+
+    .link-btn3:hover {
+        background-position: 0;
+    }
+
+    .link-btn3:visited {
+        color: var(--white-color);
+    }
+
+    /* Inicio do esquema "05Modalidades" */
+
+    .apresentation4 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        padding-top: 3em;
+    }
+
+    .add-parag {
+        width: 80%;
+        color: var(--green-color);
+        letter-spacing: 2px;
+        font-size: calc(1vw + 0.2em);
+        font-weight: bold;
+        line-height: 2;
+        text-align: justify;
+        padding-bottom: 2em;
+    }
+
+    .post4 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+
+    .motor-user {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 2em;
+    }
+
+    .motor {
+        text-align: center;
+        display: grid;
+        grid-template-rows: 7fr 1fr;
+    }
+
+    .no-motor {
+        text-align: center;
+        display: grid;
+        grid-template-rows: 7fr 1fr;
+    }
+
+    .icon-description {
+        font-size: calc(1vw + 0.5em);
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+
+    .bi-user {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        border-bottom: 2px solid var(--green-color);
+        border-radius: 20px;
+    }
+
+    .icon-box {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .km {
+        text-align: center;
+        font-size: calc(1vw + 0.8em);
+        color: var(--green-color);
+        font-weight: bold;
+        margin-bottom: 2em;
+    }
+
+    /* Início do esquema "06Taixinhas" */
+
+    .apresentation5 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        font-weight: bolder;
+        padding-top: 5em;
+    }
+
+    .asterisco {
+        color: var(--green-color);
+        font-size: calc(1vw + 6em);
+        width: 60%;
+        position: relative;
+        left: 37%;
+        line-height: 0.1;
+    }
+
+    .upper-title-central,
+    .main-title-central,
+    .sub-title-central {
+        display: flex;
+        justify-content: center;
+        color: var(--white-color);
+        text-transform: uppercase;
+        line-height: 1;
+        letter-spacing: 5px;
+    }
+
+    .upper-title-central {
+        font-size: calc(1vw + 2em);
+    }
+
+    .main-title-central {
+        font-size: calc(1vw + 4em);
+    }
+
+    .sub-title-central {
+        font-size: calc(1vw + 1em);
+        letter-spacing: 2px;
+    }
+
+    .no-pay {
+        margin-top: 2em;
+        width: 90%;
+        position: relative;
+        left: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .anual,
+    .mensal {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pay-parag {
+        color: var(--grey-dark-color);
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        border-radius: 20px;
+        font-size: calc(1vw + 0.5em);
+        margin-bottom: calc(-1vw - 1.4em);
+    }
+
+    .pegadinha {
+        padding-top: 6em;
+    }
+
+    .pega-parag {
+        text-align: center;
+        color: var(--white-color);
+        font-size: calc(1vw + 0.7em);
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .line2 {
+        height: 0px;
+        border: 2px solid var(--white-color);
+        border-radius: 25px;
+        width: 32%;
+        position: relative;
+        left: 34%;
+        margin-top: 2em;
+        background-color: var(--white-color);
+    }
+    
+
+    .rodapé {
+        margin-top: 3em;
+        display: grid;
+        position: relative;
+        width: 80%;
+        left: 10%;
+        background-color: transparent;
+    }
+
+    .logo-under,
+    .play-rodape,
+    .pegadinha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link-social {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr 2fr;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .play-store-white {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    .store-link {
+        width: 100%;
+    }
+
+    /* Início do esquema "07Final" */
+    
+    .quests {
+        margin-top: 1em;
+        width: 80%;
+        position: relative;
+        left: 10%;
+        margin-bottom: 1em;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+
+    .question-summary {
+        font-size: calc(1vw + 0.5em);
+        background-color: var(--grey-dark-color);
+        color: var(--white-color);
+        padding: 1em;
+        display: block;
+        cursor: pointer;
+        text-align: end;
+    }
+
+    .plus {
+        color: var(--green-color);
+        padding-left: 2em;
+        padding-right: 1em;
+    }
+
+    .question-summary:hover {
+        color: var(--green-color);
+        background-color: var(--grey-light-color);
+    }
+
+    details[open]>.question-summary:before {
+        transform: rotate(90deg);
+        transition: 0.45s transform ease;
+    }
+
+    details summary {
+        position: relative;
+        z-index: 5;
+    }
+
+    @keyframes details-show {
+        from {
+            margin-bottom: -80%;
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+    }
+
+    details>*:not(.question-summary) {
+        animation: details-show 500ms ease-in-out;
+        position: relative;
+        z-index: 1;
+        transition: all 0.3s ease-in-out;
+        color: transparent;
+        overflow: hidden;
+    }
+    
+    .answer {
+        background-color: var(--grey-light-color);
+        padding: 0em;
+        text-align: justify;
+    }
+
+    .answer a {
+        text-decoration: none;
+        color: var(--green-color);
+        font-weight: bold;
+    }
+
+    .ans-parag {
+        color: var(--white-color);
+        padding: 1em;
+        font-size: calc(1vw + 0.4em);
+    }
+    
+    .duvidas-cntt {
+        width: 70%;
+        position: relative;
+        left: 15%;
+        margin-top: 2em;
+        font-size: calc(1vw + 0.5em);
+        letter-spacing: 2px;
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        border: 3px solid var(--green-color);
+        border-radius: 20px;
+    }
+
+    .duvidas-main {
+        padding: 0.5em;
+    }
+
+    .green-duvida {
+        color: var(--green-color);
+        margin-bottom: 0.2em;
+    }
+
+    .channels {
+        color: var(--white-color);
+        padding-top: 0.5em;
+    }
+
+    .canal {
+        color: var(--white-color);
+        text-decoration: none;
+    }
+
+    .canal:visited {
+        color: var(--white-color);
+    }
+
+    .canal-span {
+        color: var(--green-color);
+    }
+
+    .green-block {
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white-color);
+        font-size: calc(1vw + 3.5em);
+    }
+
+    .local-btn2 {
+        display: flex;
+        justify-content: center;
+        padding-top: 4em;
+    }
+}
+
+@media screen and (orientation: portrait){
+    /* Imagens */
+    .logo-img {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .square-min {
+        width: 1.6em;
+    }
+
+    .play-store-logo {
+        width: 2em;
+    }
+
+    .playstore-logo-full {
+        width: 25vw;
+    }
+
+    .icon-delivery {
+        width: 80%;
+        height: 90%;
+        max-height: 500px;
+        max-width: 360px;
+    }
+
+    .logo-BG-rodape {
+        width: 5.5em;
+    }
+
+    .social-media-logo {
+        width: 7vw;
+    }
+
+    .apple-logo {
+        width: 25vw;
+    }
+
+    .half-square-img {
+        width: 3em;
+        height: 3em;
+    }
+
+    .cat-img {
+        width: 30vw;
+        max-width: 75px;
+        max-height: 75px;
+    }
+
+    /* Início do esquema "02Pedido" */
+
+    .apresentation1 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .conheca {
+        color: var(--green-color);
+        display: flex;
+        align-items: flex-end;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+        font-size: calc(1vw + 0.4em);
+        letter-spacing: 3px;
+    }
+
+    .line {
+        border: 1px solid var(--green-color);
+        border-radius: 20px;
+        width: 9%;
+        height: 0px;
+        margin-right: 2.5%;
+    }
+
+    .title-info {
+        color: var(--white-color);
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        font-size: calc(1vw + 1em);
+        margin-bottom: 2em;
+    }
+
+    .acess-info {
+        color: var(--white-color);
+        font-size: calc(1vw + 0.65em);
+        width: 70%;
+        text-align: justify;
+        line-height: 1.5;
+    }
+
+    .post1 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+
+    .title2 {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr 1fr;
+    }
+
+    .with-BG {
+        color: var(--grey-dark-color);
+        font-size: calc(1vw + 1.2em);
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        text-align: right;
+    }
+
+    .é {
+        color: var(--grey-dark-color);
+        font-weight: bolder;
+    }
+
+    .is {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: calc(1vw + 10em);
+    }
+
+    .time-sales {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        font-size: calc(1vw + 0.6em);
+        color: var(--green-color);
+        font-weight: bold;
+        height: 80%;
+    }
+
+    .garantia {
+        display: grid;
+        grid-template-rows: 1fr;
+        margin-bottom: 1em;
+        font-size: calc(1vw + 1em);
+        font-weight: bold;
+    }
+    .garantia-parag {
+        text-align: center;
+    }
+    .allblack {
+        height: 0px;
+        border: 2px solid var(--grey-dark-color);
+        border-radius: 25px;
+        width: 50%;
+        position: relative;
+        left: 25%;
+        margin-top: 1em;
+    }
+
+    .local-btn {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1em;
+    }
+
+    .link-btn1 {
+        text-decoration: none;
+        font-weight: bold;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-size: calc(1vw + 0.5em);
+        letter-spacing: 1px;
+        color: var(--grey-dark-color);
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-radius: 20px;
+        border: 2px solid var(--green-color);
+        background-color: var(--white-color);
+    }
+
+    .link-btn1:visited {
+        color: var(--grey-dark-color);
+    }
+
+    /* Início do esquema "03 Como funciona" */
+
+    .apresentation2 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        padding-top: 2em;
+    }
+
+    .simple {
+        width: 90vw;
+        position: relative;
+        left: 5vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .category-box {
+        margin-top: 2em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .category-title {
+        color: var(--green-color);
+        text-transform: uppercase;
+        font-size: calc(1vw + 0.5em);
+        padding: 0.5em;
+    }
+
+    .category-descr {
+        color: var(--green-color);
+        font-size: calc(1vw + 0.3em);
+    }
+
+    .subtitle1 {
+        color: var(--green-color);
+        font-size: calc(1vw + 1.1em);
+        letter-spacing: 3px;
+    }
+
+    .post2 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        padding-top: 1em;
+    }
+
+    .list {
+        color: var(--white-color);
+        position: relative;
+        left: 2%;
+    }
+
+    .list ul {
+        margin-bottom: 1em;
+        line-height: 2;
+        font-size: calc(1vw + 0.6em);
+    }
+
+    .link-btn2 {
+        text-decoration: none;
+        font-weight: bold;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-size: calc(1vw + 0.4em);
+        letter-spacing: 1px;
+        color: var(--white-color);
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-radius: 20px;
+        border: 2px solid var(--green-color);
+    }
+
+    .link-btn2:visited {
+        color: var(--white-color);
+    }
+
+    .under-link {
+        width: 90%;
+        position: relative;
+        left: 5%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 1fr;
+    }
+
+    .download {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: end;
+    }
+
+    .title-app {
+        text-align: left;
+        display: grid;
+        grid-template-rows: 1fr 1fr ;
+    }
+
+    .first-line {
+        color: var(--white-color);
+        font-size: calc(1vw + 1em);
+        letter-spacing: 2px;
+    }
+
+    .sec-line {
+        color: var(--green-color);
+        font-size: calc(1vw + 1.1em);
+        letter-spacing: 2px;
+    }
+
+    .google-play {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link-google {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        border: 1px solid var(--white-color);
+        border-radius: 8px;
+        padding: 0.3em;
+        padding-left: 0.7em;
+        color: var(--white-color);
+    }
+
+    .link-playstore {
+        text-decoration: none;
+        color: var(--white-color);
+
+    }
+
+    .link-playstore:visited {
+        color: var(--white-color);
+    }
+
+    .link-apple {
+        text-decoration: none;
+        color: var(--white-color);
+
+    }
+
+    .link-apple:visited {
+        color: var(--white-color);
+    }
+
+    .logo-description {
+        text-align: center;
+        font-size: calc(1vw + 0.35em);
+        color: var(--white-color);
+    }
+
+    .baixe {
+        font-size: calc(1vw + 0.5em);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: flex;
+        align-items: center;
+        height: 2em;
+    }
+
+    .play {
+        font-size: calc(1vw + 0.5em);
+    }
+
+    .logo-google {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Início do esquema "04Benefícios" */
+
+    
+
+    .apresentation3 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        padding-top: 1em;
+    }
+
+    .benef-list {
+        color: var(--white-color);
+        width: 90%;
+        position: relative;
+        left: 5%;
+        margin-bottom: 3em;
+    }
+
+    .benef-item {
+        margin-bottom: 1em;
+        letter-spacing: 2px;
+        font-size: calc(1vw + 0.4em);
+    }
+
+    .time-sales2 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        text-align: justify;
+        font-size: calc(1vw + 1.2em);
+        height: 86%;
+        color: var(--white-color);
+        font-weight: bold;
+    }
+
+    .info-BG {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        padding-bottom: 2em;
+    }
+
+    .info-BG-parag {
+        width: 65%;
+        color: var(--grey-dark-color);
+        letter-spacing: 1px;
+        font-size: calc(1vw + 0.5em);
+        font-weight: bold;
+    }
+
+    .link-btn3 {
+        text-decoration: none;
+        font-weight: bold;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-size: calc(1vw + 0.4em);
+        letter-spacing: 1px;
+        color: var(--white-color);
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-radius: 20px;
+        border: 2px solid var(--grey-dark-color);
+    }
+
+    .link-btn3:visited {
+        color: var(--white-color);
+    }
+
+    /* Inicio do esquema "05Modalidades" */
+
+    .apresentation4 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        padding-bottom: 2em;
+        padding-top: 2em;
+    }
+
+    .add-parag {
+        width: 100%;
+        color: var(--green-color);
+        letter-spacing: 1px;
+        font-size: calc(1vw + 0.4em);
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    .post4 {
+        width: 90%;
+        position: relative;
+        left: 5%;
+        padding-top: 2em;
+    }
+
+    .motor-user {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 1em;
+    }
+
+    .motor {
+        text-align: center;
+        display: grid;
+        grid-template-rows: 7fr 1fr;
+    }
+
+    .no-motor {
+        text-align: center;
+        display: grid;
+        grid-template-rows: 7fr 1fr;
+    }
+
+    .icon-description {
+        font-size: calc(1vw + 0.5em);
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .bi-user {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        border-bottom: 2px solid var(--green-color);
+        border-radius: 20px;
+    }
+
+    .icon-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .km {
+        text-align: center;
+        font-size: calc(1vw + 1em);
+        color: var(--green-color);
+        font-weight: bold;
+        margin-top: 0.4em;
+        margin-bottom: 1em;
+    }
+
+    /* Início do esquema "06Taixinhas" */
+
+    .apresentation5 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        font-weight: bolder;
+        padding-top: 6em;
+    }
+
+    .asterisco {
+        color: var(--green-color);
+        font-size: calc(1vw + 6em);
+        line-height: 0.1em;
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+
+    .upper-title-central,
+    .main-title-central,
+    .sub-title-central {
+        display: flex;
+        justify-content: center;
+        color: var(--white-color);
+        text-transform: uppercase;
+        line-height: 1;
+        letter-spacing: 5px;
+    }
+
+    .upper-title-central {
+        font-size: calc(1vw + 2em);
+    }
+
+    .main-title-central {
+        font-size: calc(1vw + 3.5em);
+    }
+
+    .sub-title-central {
+        font-size: calc(1vw + 1em);
+        letter-spacing: 2px;
+    }
+
+    .no-pay {
+        margin-top: 4em;
+        width: 90%;
+        position: relative;
+        left: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .anual,
+    .mensal {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pay-parag {
+        color: var(--grey-dark-color);
+        padding-top: 0.8em;
+        padding-bottom: 0.8em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        border-radius: 10px;
+        font-size: calc(1vw + 0.7em);
+        margin-bottom: -2em;
+    }
+
+    .pegadinha {
+        padding-top: 5em;
+    }
+
+    .pega-parag {
+        text-align: center;
+        color: var(--white-color);
+        font-size: calc(1vw + 0.6em);
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    .line2 {
+        height: 0px;
+        border: 1px solid var(--white-color);
+        border-radius: 25px;
+        width: 36%;
+        position: relative;
+        left: 32%;
+        margin-top: 1em;
+    }
+    
+
+    .rodapé {
+        margin-top: 3em;
+        border-top: 1px solid var(--grey-light-color);
+        display: grid;
+        width: 75%;
+        position: relative;
+        left: 5%;
+    }
+
+    .logo-under,
+    .play-rodape,
+    .pegadinha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link-social {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr 2fr;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .logo-rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0.5em;
+        padding-left: 0.5em;
+    }
+
+    .store-link {
+        width: 100%;
+    }
+
+    /* Início do esquema "07Final" */
+    
+    .quests {
+        width: 90%;
+        position: relative;
+        left: 5%;
+        margin-bottom: 1em;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+
+    .question-summary {
+        font-size: calc(1vw + 0.5em);
+        background-color: var(--grey-dark-color);
+        color: var(--white-color);
+        padding: 1em;
+        padding-left: 3em;
+        display: block;
+        letter-spacing: 1px;
+        text-align: end;
+    }
+
+    .plus {
+        display: none;
+    }
+
+    .question-summary:hover {
+        color: var(--green-color);
+        background-color: var(--grey-light-color);
+    }
+
+    details[open]>.question-summary:before {
+        transform: rotate(90deg);
+        transition: 0.45s transform ease;
+    }
+
+    details summary {
+        position: relative;
+        z-index: 5;
+    }
+
+    @keyframes details-show {
+        from {
+            margin-bottom: -80%;
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+    }
+
+    details>*:not(.question-summary) {
+        animation: details-show 500ms ease-in-out;
+        position: relative;
+        z-index: 1;
+        transition: all 0.3s ease-in-out;
+        color: transparent;
+        overflow: hidden;
+    }
+    
+    .answer {
+        background-color: var(--grey-light-color);
+        padding: 0em;
+        letter-spacing: 1px;
+        text-align: justify;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .answer a {
+        text-decoration: none;
+        color: var(--green-color);
+        font-weight: bold;
+    }
+
+    .ans-parag {
+        color: var(--white-color);
+        padding: 1em;
+        font-size: calc(1vw + 0.4em);
+    }
+    .duvidas-cntt {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        margin-top: 4em;
+        letter-spacing: 1px;
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        background-color: var(--green-color);
+        border-radius: 5px;
+    }
+
+    .duvidas-main {
+        padding: 0.5em;
+        background-color: var(--grey-light-color);
+    }
+
+    .green-duvida {
+        color: var(--green-color);
+        margin-bottom: 0.2em;
+        text-align: center;
+        font-size: calc(1vw + 0.6em);
+    }
+
+    .channels {
+        color: var(--white-color);
+        font-size: calc(1vw + 0.5em);
+        padding-top: 0.5em;
+    }
+
+    .canal {
+        text-decoration: none;
+        color: var(--white-color);
+    }
+
+    .canal:visited {
+        color: var(--white-color);
+    }
+
+    .canal-span {
+        color: var(--green-color);
+    }
+
+    .green-block {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white-color);
+        font-size: calc(1vw + 3.5em);
+    }
+
+    .local-btn2 {
+        display: flex;
+        justify-content: center;
+        padding-top: 3em;
+    }
+}
